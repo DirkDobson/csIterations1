@@ -6,7 +6,12 @@ namespace csIteration1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var name = "John Smith";
+
+            for ( var i = 0; i < name.Length; i++)
+            {
+                System.Console.WriteLine(name[i]);
+            }
         }
     }
 }
