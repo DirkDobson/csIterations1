@@ -6,16 +6,11 @@ namespace csIteration1
     {
         static void Main(string[] args)
         {
-            var name = "John Smith";
+            var numbers = new int[] {1, 2, 3, 4};
 
-            for ( var i = 0; i < name.Length; i++)
+            foreach (var number in numbers)
             {
-                System.Console.WriteLine(name[i]);
-            }
-
-            foreach ( var character in name)
-            {
-                System.Console.WriteLine(character);
+                System.Console.WriteLine(number);
             }
         }
     }
