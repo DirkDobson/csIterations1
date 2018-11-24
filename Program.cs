@@ -6,11 +6,18 @@ namespace csIteration1
     {
         static void Main(string[] args)
         {
-            var numbers = new int[] {1, 2, 3, 4};
-
-            foreach (var number in numbers)
+            while (true)
             {
-                System.Console.WriteLine(number);
+                System.Console.Write("Type your name: ");
+                var input = System.Console.ReadLine();
+
+                if (!String.IsNullOrWhiteSpace(input))
+                {
+                    System.Console.WriteLine("@Echo: " + input);
+                    continue;
+                }
+                   
+                break;
             }
         }
     }
