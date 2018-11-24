@@ -12,6 +12,11 @@ namespace csIteration1
             {
                 System.Console.WriteLine(name[i]);
             }
+
+            foreach ( var character in name)
+            {
+                System.Console.WriteLine(character);
+            }
         }
     }
 }
